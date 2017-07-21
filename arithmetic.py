@@ -1,10 +1,9 @@
 a = int(raw_input())
 b = int(raw_input())
-a=3
-b=2
-a+b
 print a+b
-a-b
 print a-b
-a*b
 print a*b
+#Loops problem solved
+N = int(raw_input())
+for i in range ( 0 , N):
+    print i*i
