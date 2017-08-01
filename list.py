@@ -1,6 +1,7 @@
+#https://www.hackerrank.com/challenges/python-lists
 #This is to read int in first line which tells number of commands
 N = int(raw_input())
-print N
+#print N
 
 #This is list where we apply next command operation
 egg = []
