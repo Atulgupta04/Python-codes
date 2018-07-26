@@ -5,8 +5,10 @@ for _ in range(t):
     d = dict()
     for c in S:
         d[c] = d.get(c, 0) + 1
+        print("c1:",c)
+        print("d:",d[c])
     counts = sorted(d.values())
-
+    print("c:",counts)
     if len(counts) < 3:
         print("Dynamic")
     elif len(counts) == 3:
